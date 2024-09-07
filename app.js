@@ -3,7 +3,11 @@ function pesquisar() {
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     console.log(campoPesquisa);
-
+// campoPesquisa.addEventListener('keypress', function(event) {
+   // if (event.key === 'Enter'){
+     //   pesquisar();
+   // }
+//});
     if (campoPesquisa == "") { 
        section.innerHTML = "<p>Nenhum esporte encontrado</p>"
 return
@@ -27,7 +31,7 @@ for (let dado of dados) {
                  <h2>
                     ${dado.Esporte}
                  </h2>
-                 ${dado.imagem}
+            
              <p class="descricao-meta">${dado.descricao} </p>
              <a href="${dado.Link}" target="_blank">Saiba mais</a>
          </div>

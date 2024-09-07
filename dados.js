@@ -32,6 +32,27 @@ let dados = [
         Ano: 1895,
         descricao: 'O Voleibol é um esporte coletivo que consiste em passar uma bola por cima de uma rede, utilizando as mãos. É um esporte que exige precisão, agilidade e trabalho em equipe.',
         Link: 'https://pt.wikipedia.org/wiki/Voleibol',
-        tags: "rede volei"
+        tags: "voleibol volei rede saque"
+    },
+    {
+        Esporte: "Handebol",
+        Ano: 1919,
+        descricao: "O handebol é um esporte coletivo que combina elementos do futebol e do basquetebol.",
+        Link: "https://pt.wikipedia.org/wiki/Handebol",
+        tags: "handebol bola gol mão"
+    },
+    {
+        Esporte: "Rugby",
+        Ano: 1823,
+        descricao: "O rugby é um esporte de contato físico intenso, com duas variantes principais: union e league.",
+        Link: "https://pt.wikipedia.org/wiki/Rugby",
+        tags: "rugby oval contato try"
+    },
+    {
+        Esporte: "Hóquei no gelo",
+        Ano: 1875,
+        descricao: "O hóquei no gelo é um esporte de equipe praticado em uma pista de gelo, com patins e um disco.",
+        Link: "https://pt.wikipedia.org/wiki/Hóquei_no_gelo",
+        tags: "hóquei gelo disco patins"
     }
 ];
